@@ -10,7 +10,7 @@ No additional installation is required. Copy the `git_commit_explorer.py` script
 
 ## Usage
 
-python3 git_commit_explorer.py -s START_DATE -e END_DATE [-a AUTHOR] [-o OUTPUT]
+`git_search.py -s START_DATE -e END_DATE [-a AUTHOR] [-o OUTPUT]`
 
 _Note:_ The script needs to be run from within a git repository.
 
