@@ -24,7 +24,7 @@ branches = branches_proc.stdout.splitlines()
 
 branches = [branch.strip() for branch in branches if branch.strip().startswith("origin/") and "HEAD" not in branch]
 
-commits = {}  # Moved outside loop to store all commits across branches.
+commits = {}
 
 for branch in branches:
     git_command = [
